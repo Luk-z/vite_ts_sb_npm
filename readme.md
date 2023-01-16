@@ -3,10 +3,15 @@
 ## Install
 
 ```
+git clone https://github.com/Luk-z/vite_ts_sb_npm.git
+
+cd vite_ts_sb_npm
+
 nvm use
 # or nvm i
 
-npm install
+## use --force to bypass npm Conflicting peer dependency
+npm install --force
 
 npm run storybook
 ```

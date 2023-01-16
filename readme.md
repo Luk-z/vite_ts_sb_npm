@@ -41,3 +41,16 @@ info => Starting manager..
         │                                                                    ^
         ╵                                                                    .js
 ```
+
+## Steps to create the project
+
+```shell
+npm create vite vite_ts_sb_npm --template react-ts
+
+npx storybook@7.0.0-beta.28 init
+
+npm install --save-dev storybook-zeplin --force
+
+# add "storybook-zeplin/register" to addons in main.cjs
+
+```
